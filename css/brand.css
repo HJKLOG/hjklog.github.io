@@ -18,6 +18,7 @@
     font-style: italic;
     color: #06283D;
     line-height: 110px;
+    margin-top: -50px;
 }
 .des-sku-sku {
     font-size: 25px;
@@ -33,6 +34,32 @@
     border-radius: 5px;
     background-color: #ffffff;
 }
+.navbar {
+    background-color: #47B5FF;
+}
+.nav-brand-logo {
+    color: #06283D;
+    transition: none; 
+}
+  
+.nav-brand-logo:hover,
+.nav-brand-logo:focus {
+    color: #06283D; 
+}
+  
+.nav-brand-logo.active {
+    color: #06283D;
+}
+/* .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='%2306283D' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+} */
+.navbar-toggler {
+    /* border: 2px solid #06283D;  */
+    border: none;
+}
+.nav-menu {
+    width: 70px;
+}
 @media (max-width: 575.98px) {
     .brand-logo {
         font-size: 80px;
@@ -47,6 +74,9 @@
         font-style: italic;
         color: #06283D;
     }
+    .nav-menu {
+    width: 50px;
+}
 }
 @media (min-width: 576px) and (max-width: 767.98px) {}
 @media (min-width: 768px) and (max-width: 991.98px) {}
